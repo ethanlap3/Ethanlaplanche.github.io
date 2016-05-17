@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik); /** Import font from Google Fonts **/
+body{      /** Code for every page **/
+	width:100%;
+	height:100%;
+	background:url('../Images/lines_bg.jpg') repeat-x ;
+	background-size:cover;
+}
+.overlay{			/** Grey tint **/
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color: rgba(179,179,179,0.30);
+}
+.content{ /** changed to top, bottom etc so it is centered. **/
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	padding:20px;
+	background-size:cover;	
+}
+#nav{   /** NAVIGATION START CODE **/
+	text-align:inherit;
+	font-size:36px;
+	padding:20px;
+	font-family:Helvetica;
+}
+table.nav_bar td{
+	background-color:rgba(179,179,179,0.3);
+	padding:15px;
+	text-align:center;
+}
+table.nav_bar a:hover{
+	color:cyan;	
+}
+table.nav_bar a{
+	text-decoration: none;
+	color:black;
+} /** NAVIGATION END CODE **/
+.image{
+	display:block;
+	margin:0 auto;
+}
+.title{
+	font-family:'Rubik', Helvetica;
+	text-align:center;
+	font-size:60px;
+	padding-top:35px;
+}
+/** INDEX **/
+
+#site_summ{
+	font-family:Helvetica;
+	font-size:40px;
+	color:black;
+	text-align:center;
+	padding:2px;
+	height:30px;
+}
+
+/*** RECORDS: ***/
+#records_p1{
+	font-family:Helvetica;
+	text-align:center;
+}
+table.result_table th, td {
+    border: 1px solid black;
+	background-color:grey;
+	width:10%;
+	font-family:Helvetica;
+}
+#chart_head{
+	font-family:Helvetica;
+	font-size:35px;
+}
+/** Equipment **/
+#equip_p1{
+	padding-top:40px;
+	font-family:Helvetica;
+	text-align:center;
+	font-size:36px;
+	padding-top:10px;
+}
+table.equipment_tab th, td {
+    border: 1px solid black;
+	background-color:grey;
+	width:10%;
+	font-family:Helvetica;
+}
+/**Images**/
+.mySlides{
+	display:none;
+}
